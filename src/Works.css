@@ -1,0 +1,93 @@
+/* Carousel Styling */
+
+.carousel-item img {
+    max-height: 50vh; /* Reduced height for carousel images */
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.8rem; /* Reduced font size */
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .carousel-caption p {
+    font-size: 1rem; /* Reduced font size */
+    color: #fff;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #ffffff00;
+  }
+  
+  /* Heading and description animations */
+  .heading-animation {
+    animation: slideIn 2s ease-in-out;
+    font-size: 5rem; /* Adjusted font size */
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .description-animation {
+    animation: fadeIn 3s ease-in-out;
+    font-size: 1rem; /* Adjusted font size */
+    color: #000000b7;
+  }
+  
+  @keyframes slideIn {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Card Layout */
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px; /* Reduced padding between cards */
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #ffffff; /* Common border for both cards */
+    border-radius: 10px;
+  }
+  
+  
+  /* Add some space on the left and right of the page */
+  .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  /* Styling for left and right card sides */
+  .card-left {
+    width: 50%; /* Border width for individual cards */
+    /* No border on individual cards */
+  }
+  
+  .card-right {
+    width: 50%;
+    border: none;
+    /* No border on individual cards */
+  }
+  
+  /* Remove borders from individual cards */
+  .card-left, .card-right {
+    border: none;
+  }
+  
