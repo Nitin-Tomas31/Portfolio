@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
-    <header className="vh-100 d-flex align-items-center justify-content-center text-center text-white" style={{ backgroundImage: "url('src/assets/cover.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+    <header className="vh-100 d-flex align-items-center justify-content-center text-center text-white" style={{ backgroundImage: "url('https://images.pexels.com/photos/1819654/pexels-photo-1819654.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="container">
         <h1 className="display-3 fw-bold text-glow text-uppercase">
           Nitin Sunil Thomas
