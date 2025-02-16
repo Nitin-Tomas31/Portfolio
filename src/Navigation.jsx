@@ -17,7 +17,7 @@ const Navigation = () => {
         {/* Logo */}
             <a className="navbar-brand d-flex align-items-center" href="#">
               <img
-                src="src/assets/iconN.svg"
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                 alt=""
                 width={50}
                 height={50}
