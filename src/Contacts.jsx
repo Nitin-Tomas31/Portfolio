@@ -24,7 +24,7 @@ const Contact = () => {
           __html: `
             /* Background and text color for the contact section */
             .contact-section {
-              background-image: url('src/assets/cover.jpg'); /* Background image */
+              background-image: url('https://images.pexels.com/photos/1819654/pexels-photo-1819654.jpeg'); /* Background image */
               color: #fff; /* White text */
               padding: 50px 0;
             }
