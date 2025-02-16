@@ -68,7 +68,7 @@ const Works = () => {
                   {/* GroWise Project */}
                   <div className="carousel-item active">
                     <img
-                      src="src/assets/gro.jpg"
+                      src="https://images.pexels.com/photos/207247/pexels-photo-207247.jpeg"
                       className="d-block w-100"
                       alt="GroWise"
                     />
@@ -84,7 +84,7 @@ const Works = () => {
                   {/* Scanopy Project */}
                   <div className="carousel-item">
                     <img
-                      src="src/assets/ocr.webp"
+                      src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
                       className="d-block w-100"
                       alt="Scanopy"
                     />
@@ -101,7 +101,7 @@ const Works = () => {
                   {/* Slack Project */}
                   <div className="carousel-item">
                     <img
-                      src="src/assets/calculator.jpg"
+                      src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg"
                       className="d-block w-100"
                       alt="Slack"
                     />
