@@ -103,7 +103,7 @@ const Skills = () => {
         </div>
         <div className="skill-card">
           <img
-            src="src/assets/flutter.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png"
             alt=""
             className="skill-icon"
             style={{ width: '60px', height: '60px', objectFit: 'contain' }}  // Adjust the size of the image
